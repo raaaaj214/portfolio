@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local"
 import Header from "./_components/Header"
+import appleTouchIcon from "../public/assets/apple-touch-icon.png"
+import fav1 from "../public/assets/favicon-32x32.png"
+import fav2 from "../public/assets/favicon-16x16.png"
 import "./globals.css";
 
 const CeraCy = localFont({
@@ -18,6 +21,7 @@ const CeraCy = localFont({
 })
 
 export const metadata: Metadata = {
+  
   title: "Raj Deshmukh",
   description: "This is Raj Deshmukh's Portfolio",
 };
