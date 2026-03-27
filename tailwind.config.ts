@@ -23,9 +23,6 @@ const config: Config = {
         text : "#F8F9FA",
         text2 : "#E9ECEF"
       },
-      fontFamily : {
-        ceracy : ['var(--font-creacy)'],
-      }
     },
   },
   plugins: [],

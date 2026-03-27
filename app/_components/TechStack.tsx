@@ -3,7 +3,7 @@ import BoxWrapper from './BoxWrapper'
 
 function TechStack() {
   const frontEndSkills = ['HTML' , 'CSS' , 'Tailwind' , 'JavaScript' , 'Typescript' , 'React Js' , 'Next Js']
-  const backEndSkills = ['Node Js' , 'Express Js' , 'MonogoDB',"Postgres  "]
+  const backEndSkills = ['Node Js' , 'Express Js' ,"Golang", 'MonogoDB',"Postgres", "MySQL"]
   return (
     <div className='flex flex-col justify-center items-center lg:flex-row min-h-screen bg-primary  w-full gap-12 py-8 lg:px-16 px-4'>
       <div className='flex flex-col gap-8 justify-center items-start lg:w-full'>
