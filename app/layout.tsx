@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local"
 import Header from "./_components/Header"
+import { Inter } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -9,12 +9,17 @@ export const metadata: Metadata = {
   description: "This is Raj Deshmukh's Portfolio",
 };
 
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+});
+
 export default function RootLayout({ children }: {
   children: React.ReactNode
 }) {
   return (
     <html lang="en">
-      <body className={`bg-fourth`}>
+      <body className={`${inter.className} bg-fourth`}>
         <Header />
         {children}
       </body>
